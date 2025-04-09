@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@novnc/novnc": "1.4.0",
+    "@novnc/novnc": "1.6.0",
     "@webrecorder/wabac": "^2.20.8",
     "browsertrix-behaviors": "^0.7.0",
     "client-zip": "^2.4.5",

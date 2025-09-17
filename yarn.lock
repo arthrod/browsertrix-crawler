@@ -1009,16 +1009,16 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@webrecorder/wabac@^2.20.8":
-  version "2.20.8"
-  resolved "https://registry.yarnpkg.com/@webrecorder/wabac/-/wabac-2.20.8.tgz#37dd14f4cf821f36ecdf5719d5f334bb3445290e"
-  integrity sha512-P6FxC17ZgPfwfp3HbdI9hkzMnqD5I3kBF0cMnue6m8wBVMCzcVGp9x43wT+pcq0zOv6ATGObxcmjJKCsDUus7A==
+"@webrecorder/wabac@^2.23.11":
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/@webrecorder/wabac/-/wabac-2.24.0.tgz#119cda1984158516874fa016939c660b055cc129"
+  integrity sha512-/3OZq61A+3hHvkXMj+UO3CbkYVm6285IhSHebgjWsuKlPeWzhUr9GFuamr3HLyiHHbCAWeM7cf+/8c6Phax90Q==
   dependencies:
     "@peculiar/asn1-ecc" "^2.3.4"
     "@peculiar/asn1-schema" "^2.3.3"
     "@peculiar/x509" "^1.9.2"
     "@types/js-levenshtein" "^1.1.3"
-    "@webrecorder/wombat" "^3.8.7"
+    "@webrecorder/wombat" "^3.9.0"
     acorn "^8.10.0"
     auto-js-ipfs "^2.1.1"
     base64-js "^1.5.1"
@@ -1026,7 +1026,6 @@
     buffer "^6.0.3"
     fast-xml-parser "^4.4.1"
     hash-wasm "^4.9.0"
-    http-link-header "^1.1.3"
     http-status-codes "^2.1.4"
     idb "^7.1.1"
     js-levenshtein "^1.1.6"
@@ -1037,12 +1036,12 @@
     path-parser "^6.1.0"
     process "^0.11.10"
     stream-browserify "^3.0.0"
-    warcio "^2.4.3"
+    warcio "^2.4.5"
 
-"@webrecorder/wombat@^3.8.7":
-  version "3.8.7"
-  resolved "https://registry.yarnpkg.com/@webrecorder/wombat/-/wombat-3.8.7.tgz#51c7465c589e0020be064121127c7c10a38ec21f"
-  integrity sha512-bW5V7cBweTkTazOIN8oZZGwHLevsGNv1luY3t0RYdEZhs5BDpTmUHN33zEbrXDOiPUlY3N3I8+73VA+PuxihoQ==
+"@webrecorder/wombat@^3.9.0":
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/@webrecorder/wombat/-/wombat-3.9.0.tgz#a10116d01e1df66df791dc79c4ad58ee07de9308"
+  integrity sha512-o6ahV9DIi4/DkD13Qh4oGK0P+ZLn9ruu5sAUdqe51UXEdDsQNVuGbtf++bsOoKkLlsjL5QJZny2CEiJesLlsnw==
   dependencies:
     warcio "^2.4.0"
 
@@ -2587,11 +2586,6 @@ html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
-
-http-link-header@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/http-link-header/-/http-link-header-1.1.3.tgz#b367b7a0ad1cf14027953f31aa1df40bb433da2a"
-  integrity sha512-3cZ0SRL8fb9MUlU3mKM61FcQvPfXx2dBrZW3Vbg5CXa8jFlK8OaEpePenLe1oEXQduhz8b0QjsqfS59QP4AJDQ==
 
 http-proxy-agent@^7.0.0, http-proxy-agent@^7.0.1:
   version "7.0.2"
@@ -5035,7 +5029,7 @@ walker@^1.0.8:
   dependencies:
     makeerror "1.0.12"
 
-warcio@^2.4.0, warcio@^2.4.3:
+warcio@^2.4.0, warcio@^2.4.3, warcio@^2.4.5:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/warcio/-/warcio-2.4.3.tgz#37ff95c2358d0d5ddb16e924fe200c4774b3903d"
   integrity sha512-c397HNfLE7yJsyVF3XKXB+Yh3q3WKljhdYRPkKF9eyZMtB+HIxj1aBqgq0nTYz492KMKtzygBo0Gx+Gi0fJ9dg==
